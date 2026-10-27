@@ -3,7 +3,7 @@
 ## 1. Thong tin sinh vien
 - Ho ten: Duong Thi Tam Nghi
 - MSSV: 237923
-- Lop: [Dien ten lop]
+- Lop: DH23TIN10
 
 ## 2. Mo ta
 Xay dung he thong quan ly nhan su tren nen tang dam may.
