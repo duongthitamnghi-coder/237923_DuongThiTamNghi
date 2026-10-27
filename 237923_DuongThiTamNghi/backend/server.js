@@ -57,8 +57,14 @@ async function startServer() {
       throw new Error('Thieu bien moi truong MONGODB_URI trong file .env');
     }
 
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log('Da ket noi MongoDB Atlas');
+await mongoose.connect(process.env.MONGODB_URI);
+
+console.log('Da ket noi MongoDB Atlas');
+console.log('Database dang dung:', mongoose.connection.name);
+console.log(
+  'Collection dang dung:',
+  mongoose.connection.collection('employees').collectionName
+);
 
     app.listen(PORT, '0.0.0.0', () => {
       console.log(`Server dang chay tai cong ${PORT}`);
