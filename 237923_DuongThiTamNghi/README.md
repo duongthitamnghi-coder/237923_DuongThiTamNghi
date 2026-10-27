@@ -34,6 +34,6 @@ Nội dung hướng dẫn cài đặt và chạy ứng dụng sẽ được cậ
 - Docker Hub – Frontend: https://hub.docker.com/repository/docker/mycloudnghi/frontend/general
 - Render – Ứng dụng: https://web-237923.onrender.com/
 - Render – API nhân viên: https://api-237923.onrender.com/api/employees
-
+- MongoDB Atlas: mongodb+srv://237923_DuongThiTamNghi:237923Nghi@cluster0.ixskxug.mongodb.net/
 ## 6. Cấu hình cơ sở dữ liệu
 Ứng dụng sử dụng MongoDB Atlas để lưu trữ dữ liệu nhân viên. Thông tin kết nối cơ sở dữ liệu được cấu hình bằng biến môi trường để đảm bảo an toàn thông tin.
